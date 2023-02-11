@@ -1,0 +1,8 @@
+CREATE OR REPLACE EXTERNAL TABLE `de-zoomcamp-prefect.dezoomcamp.fhv_tripdata`
+OPTIONS (
+  format = 'parquet',
+  uris = ['gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-01.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-02.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-03.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-04.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-05.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-06.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-07.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-08.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-09.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-10.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-11.parquet','gs://prefect-de-zoomcamp-doug/data/fhv-ny-taxi/fhv_tripdata_2019-12.parquet']
+)
+
+
+

@@ -1,0 +1,5 @@
+CREATE OR REPLACE TABLE
+  de-zoomcamp-prefect.dezoomcamp.fhv_tripdata_partitioned 
+PARTITION BY DATE(pickup_datetime)
+CLUSTER BY affiliated_base_number  as 
+select * from de-zoomcamp-prefect.dezoomcamp.fhv_tripdata

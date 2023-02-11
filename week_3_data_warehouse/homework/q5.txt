@@ -1,0 +1,2 @@
+select distinct affiliated_base_number from de-zoomcamp-prefect.dezoomcamp.fhv_tripdata_partitioned 
+where  pickup_datetime between '2019-01-03' and '2019-03-31'

@@ -1,0 +1,2 @@
+select count(*) from de-zoomcamp-prefect.dezoomcamp.fhv_tripdata_partitioned 
+where   PUlocationID is null and DOlocationID is null
